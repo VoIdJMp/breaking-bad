@@ -1,0 +1,55 @@
+.vs-card__img {
+  position: relative;
+  max-height: 100%;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border-radius: 20px;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+
+.vs-card__img img {
+  width: 100%;
+  border-radius: 20px;
+  display: block;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+
+.card-fill {
+  height: calc(100% - 1.5rem);
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border-radius: 0.5rem;
+  margin-bottom: 1.5rem;
+  border-color: #edf2f9;
+}
+
+.card-header {
+  padding: 1rem 1.5rem;
+  margin-bottom: 0;
+  background-color: transparent;
+  border-bottom: 1px solid #edf2f9;
+}
+
+.card-body {
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1.5rem;
+}
