@@ -68,9 +68,6 @@ export default {
               item: item,
             };
           }
-          if (item.name === "Gustavo Fring") {
-            console.log(dItem.number_of_deaths);
-          }
           this.raiting[item.name].countDeath =
             this.raiting[item.name].countDeath + dItem.number_of_deaths;
         }

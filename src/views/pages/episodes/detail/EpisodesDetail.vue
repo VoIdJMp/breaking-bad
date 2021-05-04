@@ -100,7 +100,6 @@ export default {
 
     getWeather(loading) {
       const dateEpisode = new Date(this.episode.air_date);
-      console.log(dateEpisode);
       weatherService
         .getWeather({
           year: dateEpisode.getFullYear(),
