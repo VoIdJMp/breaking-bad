@@ -19,7 +19,7 @@
         <vs-card class="mt-4">
           <template #title>
             <div class="d-flex items-center justify-content-between">
-              <h3 class="text-primary">{{ item.series }}</h3>
+              <h3 class="text-primary">{{ item.title }}</h3>
               <strong>
                 {{
                   new Date(item.air_date).toLocaleDateString("en", {
